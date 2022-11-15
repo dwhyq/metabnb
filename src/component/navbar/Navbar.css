@@ -131,7 +131,7 @@
 @media (max-width: 300px) {
   .Navbar {
     justify-content: space-between;
-    height: 47px;
+    height: 45px;
   }
   .nav-logo {
     margin: 1px;

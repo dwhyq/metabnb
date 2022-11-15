@@ -64,7 +64,7 @@
   flex-direction: column;
   gap: 0.4rem;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .two_houses {
     max-width: 170px;
   }
@@ -95,5 +95,54 @@
   }
   .house_description span img{
    width: 70px;
+  }
+  .house_name_navbar a {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 550px) {
+  .two_houses {
+    max-width: 90px;
+  }
+  .house_images {
+    cursor: pointer;
+  }
+  .house {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    cursor: pointer;
+  }
+  .house_img {
+    max-width: 70px;
+  }
+  .house_description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 8px;
+    padding: 0.2rem;
+    /* width: 90px; */
+  }
+  .house_description span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .house_description span img{
+   width: 40px;
+  }
+  .house_name_navbar a {
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .location_btn {
+    display: flex;
+    align-items: center;
+    font-size: 9px;
+    gap: 0.2rem;
+    padding: 0.2rem;
+    cursor: pointer;
   }
 }

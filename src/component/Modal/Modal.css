@@ -48,8 +48,32 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border-top: 1px solid grey;
+    border-top: 1px solid rgb(214, 208, 208);
 }
 img {
     max-width: 350px;
+}
+@media (max-width: 600px) {
+    #modal{
+        border: 1px solid grey;
+        max-width: 65%;
+        border-radius: 10px;
+        background-color: #fff;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        z-index: 1000;
+    }
+}
+@media (max-width: 951px) {
+    #modal{
+        border: 1px solid grey;
+        max-width: 65%;
+        border-radius: 10px;
+        background-color: #fff;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        z-index: 1000;
+    }
 }
