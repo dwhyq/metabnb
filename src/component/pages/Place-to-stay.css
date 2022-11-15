@@ -24,6 +24,7 @@
   align-items: center;
   gap: 0.3rem;
   padding: 0.3rem;
+  cursor: pointer;
 }
 .house_section {
   display: flex;
@@ -39,6 +40,7 @@
 .house_images {
   display: flex;
   gap: 0.5rem;
+  cursor: pointer;
 }
 .house {
   display: flex;
@@ -48,6 +50,7 @@
   border-radius: 10px;
   padding: 0.2rem;
   margin: 1rem;
+  cursor: pointer;
 }
 .house_description {
   display: flex;
@@ -60,4 +63,37 @@
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+}
+@media (max-width: 700px) {
+  .two_houses {
+    max-width: 170px;
+  }
+  .house_images {
+    cursor: pointer;
+  }
+  .house {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  .house_img {
+    max-width: 130px;
+  }
+  .house_description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 10px;
+    padding: 0.2rem;
+    /* width: 90px; */
+  }
+  .house_description span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .house_description span img{
+   width: 70px;
+  }
 }
