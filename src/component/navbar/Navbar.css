@@ -12,6 +12,7 @@
 }
 .nav-logo {
   width: 130px;
+  cursor: pointer;
 }
 .connect-wallet-btn {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
@@ -19,6 +20,13 @@
   border: 1px solid #a02279;
   color: #ffffff;
   padding: 0.5rem;
+  cursor: pointer;
+}
+.connect-wallet-btn:hover {
+  background: linear-gradient(90deg, #b63a8f 11.45%, #bb3791 11.45%);
+}
+.connect-wallet-btn:active {
+  background: linear-gradient(90deg, #7a1059 11.45%, #690b4c 11.45%);
 }
 .Navbar > .nav-items > a {
   font-family: "Red Rose";

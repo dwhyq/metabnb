@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../images/logo.svg";
 import Modal from "../Modal/Modal";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,8 @@ function Navbar() {
       <div className="Navbar">
         <img src={logo} alt="logo" className="nav-logo" />
         <div className={`nav-items ${isOpen && "open"}`}>
-          <a href="/home">Home</a>
-          <a href="/PlaceToStay"> Place to stay</a>
+          <Link to="/">Home</Link>
+          <Link to="/PlaceToStay"> Place to stay</Link>
           <a href="/contact">NFTs</a>
           <a href="/gallery">Community</a>
         </div>

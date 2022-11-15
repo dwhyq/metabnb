@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-// import Modal from "../Modal/Modal"
 import house from "../../images/fourimg.svg";
 import mbtoken from "../../images/mbtoken.svg";
 import metamask from "../../images/metamask.svg";
@@ -188,9 +187,9 @@ function Home() {
             amazing gift cards which are traded as NFTs. These NFTs gives our
             customer access to loads of our exclusive services.
           </p>
-           <button className="learn_more_btn">Learn more</button>
+          <button className="learn_more_btn">Learn more</button>
         </div>
-        <img src={frame3} alt="" className="frame3"/>
+        <img src={frame3} alt="" className="frame3" />
       </div>
       <Footer />
     </div>
