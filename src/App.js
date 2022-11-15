@@ -9,7 +9,7 @@ import PlaceToStay from "./component/pages/PlaceToStay";
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
       <Routes>
         <Route path="/PlaceToStay" element={<PlaceToStay />} />
         <Route path="/home" element={<Home />} />
