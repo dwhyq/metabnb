@@ -128,7 +128,7 @@
     transform: rotate(-45deg) translate(26px, 26px);
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 375px) {
   .Navbar {
     justify-content: space-between;
     height: 45px;
