@@ -4,6 +4,10 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+}
 .house_name_navbar {
   display: flex;
   justify-content: center;
@@ -101,20 +105,25 @@
     line-height: 20px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 678px) {
   .two_houses {
-    max-width: 90px;
+    max-width: 90%;
   }
   .house_images {
     cursor: pointer;
+    margin: auto;
+  }
+  .house_section {
+    display: flex;
+    /* flex-direction: column; */
   }
   .house {
-    padding: 0.2rem;
-    margin: 0.2rem;
+    padding: 1rem;
+    margin: 1rem;
     cursor: pointer;
   }
   .house_img {
-    max-width: 70px;
+    max-width: 100px;
   }
   .house_description {
     display: flex;
@@ -144,5 +153,48 @@
     gap: 0.2rem;
     padding: 0.2rem;
     cursor: pointer;
+  }
+}
+@media (max-width: 550px) {
+  .house_images {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  .two_houses {
+    max-width: 180px;
+  }
+  .house_images {
+    cursor: pointer;
+  }
+  .house {
+    padding: 0.2rem;
+    margin: 0.2rem;
+    cursor: pointer;
+  }
+  .house_img {
+    max-width: 120px;
+  }
+  .house_description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 10px;
+    padding: 0.5rem;
+    /* width: 90px; */
+  }
+  .house_description span {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .house_description span img{
+   width: 40px;
+  }
+  .house_name_navbar a {
+    font-size: 8px;
+    line-height: 10px;
   }
 }
