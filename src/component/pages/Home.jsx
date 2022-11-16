@@ -1,6 +1,8 @@
 import React from "react";
+//imported components below
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
+//imported all images below
 import house from "../../images/fourimg.svg";
 import mbtoken from "../../images/mbtoken.svg";
 import metamask from "../../images/metamask.svg";

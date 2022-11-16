@@ -1,9 +1,13 @@
 import React from "react";
+//imported an image below
 import footer_logo from "../../images/footlogo.svg";
+
+//imported icons below
 import { GrFacebookOption } from "react-icons/gr";
 import { FiTwitter } from "react-icons/fi";
 import { GrInstagram } from "react-icons/gr";
 import { RiCopyrightLine } from "react-icons/ri";
+//imported css file below
 import "./Footer.css"
 
 
