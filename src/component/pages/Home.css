@@ -217,6 +217,17 @@ input {
     max-width: 115px;
     padding: 1rem;
   }
+  .sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    background-color: #a02279;
+    padding: 0.5rem;
+  }
+  .sponsors img {
+    max-width: 85px;
+  }
 }
 @media (max-width: 375px) {
   .top_layout {
@@ -285,7 +296,7 @@ input {
     padding: 0.5rem;
   }
   .sponsors img {
-    max-width: 80px;
+    max-width: 75px;
   }
   .description {
     display: flex;
