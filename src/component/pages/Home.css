@@ -155,6 +155,26 @@ input {
 .frame3 {
   max-width: 500px;
 }
+@media (max-width: 900px) {
+  .top_layout {
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: space-around;
+  }
+  .top_4_img {
+    max-width: 280px;
+  }
+  .sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+  .sponsors img {
+    max-width: 75px;
+  }
+}
 @media (max-width: 750px) {
   .top_layout {
     padding: 1rem;
@@ -210,7 +230,7 @@ input {
     max-width: 90%;
     margin: auto;
   }
-  .learn_more_section p{
+  .learn_more_section p {
     max-width: 80%;
   }
   .learn_more_btn {
@@ -226,7 +246,7 @@ input {
     padding: 0.5rem;
   }
   .sponsors img {
-    max-width: 85px;
+    max-width: 75px;
   }
 }
 @media (max-width: 375px) {
@@ -296,7 +316,7 @@ input {
     padding: 0.5rem;
   }
   .sponsors img {
-    max-width: 75px;
+    max-width: 65px;
   }
   .description {
     display: flex;

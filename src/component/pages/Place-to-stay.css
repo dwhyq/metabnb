@@ -118,8 +118,8 @@
     /* flex-direction: column; */
   }
   .house {
-    padding: 1rem;
-    margin: 1rem;
+    padding: 0.6rem;
+    margin: 0.2rem;
     cursor: pointer;
   }
   .house_img {
@@ -155,7 +155,7 @@
     cursor: pointer;
   }
 }
-@media (max-width: 578px) {
+@media (max-width: 587px) {
   .house_section {
     display: flex;
     /* flex-direction: column; */
