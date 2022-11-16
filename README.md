@@ -1,3 +1,13 @@
+# A task given by ZURIxHNG 9.
+
+Descripition: Code a three page NFT website and make it responsive following the [figma](https://www.figma.com/file/atc36d5Cj9xJNupZALp9Tg/Metabnb-for-frontend?node-id=1%3A1658&t=kWofHbvuljl3Feps-0) design.
+
+Feature: Add a react modal.
+
+Only stack to be used: REACTJS and any css framework.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
