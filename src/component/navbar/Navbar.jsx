@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo.png";
 import Modal from "../Modal/Modal";
 import { Link } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import modalMask from "../../images/modalmask.svg";
-import modalConnect from "../../images/modalconnect.svg";
+import modalMask from "../../images/modalmask.png";
+import modalConnect from "../../images/modalconnect.png";
 import { MdClose } from "react-icons/md";
 import "./Modal.css";
 

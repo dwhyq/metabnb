@@ -3,20 +3,20 @@ import React from "react";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 //imported all images below
-import house from "../../images/fourimg.svg";
-import mbtoken from "../../images/mbtoken.svg";
-import metamask from "../../images/metamask.svg";
-import opensea from "../../images/opensea.svg";
-import one from "../../images/Frame 1.svg";
-import two from "../../images/Frame 2.svg";
-import three from "../../images/Frame 3.svg";
-import four from "../../images/Frame 4.svg";
-import five from "../../images/Frame 5.svg";
-import six from "../../images/Frame 6.svg";
-import seven from "../../images/Frame 7.svg";
-import eight from "../../images/Frame 8.svg";
-import stars from "../../images/stars.svg";
-import frame3 from "../../images/Frame 3in1.svg";
+import house from "../../images/fourimg.png";
+import mbtoken from "../../images/mbtoken.png";
+import metamask from "../../images/metamask.png";
+import opensea from "../../images/opensea.png";
+import one from "../../images/Frame 1.png";
+import two from "../../images/Frame 3.png";
+import three from "../../images/Frame 4.png";
+import four from "../../images/Frame 5.png";
+import five from "../../images/Frame 8.png";
+import six from "../../images/Frame 8.png";
+import seven from "../../images/Frame 5.png";
+import eight from "../../images/Frame 1.png";
+import stars from "../../images/stars.png";
+import frame3 from "../../images/Frame 3in1.png";
 
 import "./Home.css";
 
